@@ -1,0 +1,158 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+  .nav-container {
+    position: relative;
+    background-color: #333;
+  }
+
+  .nav-container i {
+    color:white;
+    font-size:30px;
+    margin: 10px 10px 10px 120px;
+  }
+
+  .nav-container a {   
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 12px 10px;
+  }
+
+  .nav-container a:hover {
+    background-color: rgb(99, 5, 5);
+    margin-bottom: -20px; 
+  }
+
+  .menu-container {
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 15%;
+    padding: 2px 7px;
+    margin: 6px auto;
+  }
+
+  .bar1, .bar2, .bar3 {
+    height: 2px;
+    width: 30px;
+    background-color: rgb(128, 128, 128);
+    margin: 6px 0;
+  }
+
+  .heading-page {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+
+  .heading-page p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .heading-btn button {  
+    color:white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 20px;
+  }
+
+  label:first-of-type button {
+    background-color: rgb(39, 119, 240);
+  }
+
+  label:last-of-type button {
+    background-color: grey;
+  }
+
+  .cards-container {
+    width: 80%;
+    background-color: rgb(247, 241, 241);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .card-box {
+    height: 500px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    box-shadow:2px 10px 10px 0px #888888; 
+    margin: 50px auto;
+  }
+
+  .card-box img {
+    width: 100%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+  }
+
+  .card-box p {
+    height: 100px; 
+    padding: 25px 35px; 
+    text-align: left;
+    overflow: hidden;
+  }
+
+  .btn-card {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 35px;  
+  }
+
+  .btn-card button {    
+    border: 1px solid grey;
+    padding: 0 8px;  
+  }
+
+  .btn-card button:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .btn-card button:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .btn-card span {    
+    padding-left: 160px;  
+  }
+  
+  .footer-page {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;    
+    margin: 50px auto;
+  }
+
+  .footer-page a {
+    text-decoration: none;
+  }
+
+  .footer-page a:visited {
+    color: blue;
+  }
+
+  .footer-btn p {
+    color: blue;
+  }
